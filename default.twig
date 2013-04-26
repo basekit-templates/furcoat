@@ -12,8 +12,6 @@
 {{zone('main')|raw}}
 
 <footer>
-{{widget('companyaddress', 'companyaddressfooter', {"bkprofileaddress":profile.address, 
-"bkprofileaddress1":profile.address1, "bkprofileaddress2":profile.address2, 
-"bkprofilepostalcode":profile.postalcode, "bkprofilecountry":profile.country})|raw}}
+{{widget('companyaddress', 'companyaddress', {})|raw}}
 </footer>
 {% endblock %}
