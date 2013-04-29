@@ -4,12 +4,9 @@
 <header>
 {{widget('companyheader', 'companyheader', {"defaultlogo": asset('furcoat/images/furcoat-logo.png')})|raw}}
 {{widget('extendednavigation', 'navigationheader', {"align":"center"})|raw}}
-{{widget('button', 'button', {italic: 'true', text:'button'})|raw}}
-{{widget('clicktocall', 'clicktocall', {phoneText: 'Click to Call'})|raw}}
-{{widget('contactform', 'contactform', {text: 'Submit'})|raw}}
 {{widget('content', 'content', {content: 'This is a content widget.', lines: 'all'})|raw}}
-
-
+{{widget('facebooklike', 'facebooklike', {text: 'Hao Like', showFaces: 'true', action: 'like', colorscheme: 'light', layout: 'standard', height: '80', font: 'arial', locale: 'en_US', thisUrl: 'www.basekit.com'})|raw}}
+{{widget('feature', 'featurehome', {"header": "Lorem Ipsum Dolor Amet Consectetur.", "strapline":"Etiam at fermentum purus. Pellentesque commodo urna sit amet magna.","buttonText":"LOREM IPSUM","bgImg": asset('furcoat/images/reference.png')})|raw}}
 </header>
 
 {{zone('main')|raw}}
